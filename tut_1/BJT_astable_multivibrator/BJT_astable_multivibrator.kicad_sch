@@ -1,0 +1,147 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "e9e3e1aa-ac36-4243-b2e3-bd965ab9be28")
+	(paper "A4")
+	(title_block
+		(title "BJT_astable_multivibrator")
+		(date "2025-10-10")
+		(rev "V1.0")
+		(company "OCA")
+		(comment 1 "Ass_1")
+	)
+	(lib_symbols)
+	(sheet
+		(at 88.9 87.63)
+		(size 30.48 21.59)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "4bf79b3d-38a4-44a8-81b3-f7db8f98c4e4")
+		(property "Sheetname" "POWER"
+			(at 88.9 86.9184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 88.9 109.8046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "BJT_astable_multivibrator"
+				(path "/e9e3e1aa-ac36-4243-b2e3-bd965ab9be28"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 127 87.63)
+		(size 33.02 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "78ae1a7f-b581-4fc0-9ea3-05f1e2a60900")
+		(property "Sheetname" "BJT_Astable_Multivibrator"
+			(at 127 86.9184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "bjt_a_m.kicad_sch"
+			(at 127 108.5346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "BJT_astable_multivibrator"
+				(path "/e9e3e1aa-ac36-4243-b2e3-bd965ab9be28"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 168.91 87.63)
+		(size 29.21 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c308990c-5837-4630-81fc-4dabf9e970ed")
+		(property "Sheetname" "Mounting Holes and Fiducials"
+			(at 168.91 86.9184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MH_flucidials.kicad_sch"
+			(at 168.91 108.5346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "BJT_astable_multivibrator"
+				(path "/e9e3e1aa-ac36-4243-b2e3-bd965ab9be28"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

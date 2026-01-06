@@ -1,0 +1,188 @@
+
+(rules PCB arduino_uno_custom_4_layers_newdimensions.dsn
+  (snap_angle 
+    fortyfive_degree
+  )
+  (autoroute_settings
+    (fanout off)
+    (autoroute on)
+    (postroute off)
+    (vias on)
+    (via_costs 50)
+    (plane_via_costs 5)
+    (start_ripup_costs 100)
+    (start_pass_no 1)
+    (layer_rule F.Cu
+      (active on)
+      (preferred_direction horizontal)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 3.8)
+    )
+    (layer_rule In1.Cu
+      (active off)
+      (preferred_direction horizontal)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 3.8)
+    )
+    (layer_rule In2.Cu
+      (active off)
+      (preferred_direction horizontal)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 3.8)
+    )
+    (layer_rule B.Cu
+      (active on)
+      (preferred_direction vertical)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 3.3)
+    )
+  )
+  (rule
+    (width 250.0)
+    (clearance 150.0)
+    (clearance 125.0 (type smd_to_turn_gap))
+    (clearance 37.6 (type smd))
+    (clearance 150.0 (type "kicad_default"))
+    (clearance 150.0 (type Power,Default))
+    (clearance 150.0 (type SPI,Default))
+    (clearance 150.0 (type I2C,Default))
+  )
+  (padstack "Via[0-3]_800:400_um"
+    (shape
+      (circle F.Cu 800.0 0.0 0.0)
+    )
+    (shape
+      (circle In1.Cu 800.0 0.0 0.0)
+    )
+    (shape
+      (circle In2.Cu 800.0 0.0 0.0)
+    )
+    (shape
+      (circle B.Cu 800.0 0.0 0.0)
+    )
+    (attach off)
+  )
+  (padstack "Via[0-3]_1000:500_um"
+    (shape
+      (circle F.Cu 1000.0 0.0 0.0)
+    )
+    (shape
+      (circle In1.Cu 1000.0 0.0 0.0)
+    )
+    (shape
+      (circle In2.Cu 1000.0 0.0 0.0)
+    )
+    (shape
+      (circle B.Cu 1000.0 0.0 0.0)
+    )
+    (attach off)
+  )
+  (via 
+    "Via[0-3]_800:400_um" "Via[0-3]_800:400_um" default
+  )
+  (via 
+    "Via[0-3]_1000:500_um" "Via[0-3]_1000:500_um" default
+  )
+  (via 
+    "Via[0-3]_800:400_um-kicad_default" "Via[0-3]_800:400_um" "kicad_default"
+  )
+  (via 
+    "Via[0-3]_1000:500_um-kicad_default" "Via[0-3]_1000:500_um" "kicad_default"
+  )
+  (via 
+    "Via[0-3]_800:400_um-Power,Default" "Via[0-3]_800:400_um" Power,Default
+  )
+  (via 
+    "Via[0-3]_1000:500_um-Power,Default" "Via[0-3]_1000:500_um" Power,Default
+  )
+  (via 
+    "Via[0-3]_800:400_um-SPI,Default" "Via[0-3]_800:400_um" SPI,Default
+  )
+  (via 
+    "Via[0-3]_1000:500_um-SPI,Default" "Via[0-3]_1000:500_um" SPI,Default
+  )
+  (via 
+    "Via[0-3]_800:400_um-I2C,Default" "Via[0-3]_800:400_um" I2C,Default
+  )
+  (via 
+    "Via[0-3]_1000:500_um-I2C,Default" "Via[0-3]_1000:500_um" I2C,Default
+  )
+  (via_rule
+    default "Via[0-3]_800:400_um"
+  )
+  (via_rule
+    "kicad_default" "Via[0-3]_800:400_um-kicad_default"
+  )
+  (via_rule
+    Power,Default "Via[0-3]_1000:500_um-Power,Default"
+  )
+  (via_rule
+    SPI,Default "Via[0-3]_800:400_um-SPI,Default"
+  )
+  (via_rule
+    I2C,Default "Via[0-3]_800:400_um-I2C,Default"
+  )
+  (class default
+    (clearance_class default)
+    (via_rule default)
+    (rule
+      (width 250.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class "kicad_default"
+    /ATmega16U2/RXD /ATmega16U2/TXD "Net-(U2-PC0{slash}XTAL2)" "Net-(U2-XTAL1)" "Net-(RN3D-R4.2)" USHD "unconnected-(RN3C-R3.2-Pad6)" "Net-(U1-XTAL1{slash}PB6)"
+    "Net-(U1-XTAL2{slash}PB7)" "Net-(RN1A-R1.1)" "Net-(D3-A)" "D-" "unconnected-(RN3B-R2.1-Pad2)" "unconnected-(U3-BP-Pad4)" /ATmega16U2/USBVCC "Net-(Q1-G)"
+    /connector/VIN "Net-(RN2A-R1.2)" /ATmega328p/PB0{slash}ICP /ATmega328p/PD3 /ATmega328p/AD3 /ATmega328p/PD6 /ATmega328p/AD1 /ATmega328p/AREF
+    /ATmega328p/AD2 /ATmega328p/PB1{slash}OC1 /ATmega328p/PD4 /ATmega328p/PD7 /ATmega328p/AD0 /ATmega328p/PD2 /ATmega328p/PD5 /ATmega328p/~{RESET}{slash}PC6
+    RST "unconnected-(U2-PC6-Pad23)" "Net-(U2-UCAP)" "unconnected-(U2-PD0-Pad6)" "unconnected-(U2-PB0-Pad14)" "unconnected-(U2-PC4-Pad26)" /ATmega16U2/DTR "unconnected-(U2-PD6-Pad12)"
+    "Net-(RN4B-R2.2)" MISO2 /ATmega16U2/PB6 "Net-(TX1-K)" /ATmega16U2/PB4 "unconnected-(U2-PC7-Pad22)" /ATmega16U2/PB5 /ATmega16U2/PB7
+    "unconnected-(U2-PC2-Pad5)" MOSI2 SCK2 "Net-(RN4A-R1.2)" D+ "unconnected-(U2-PC5-Pad25)" "unconnected-(U2-PD1-Pad7)" "Net-(RX1-K)"
+    "Net-(RN2B-R2.2)" "Net-(ON1-A)" "Net-(RN2C-R3.2)" "unconnected-(RN3B-R2.2-Pad7)" "Net-(D4-A)" "unconnected-(J7-Pin_1-Pad1)" "Net-(RN3A-R1.2)" "unconnected-(RN3C-R3.1-Pad3)"
+    "Net-(J8-CC1)" "Net-(J8-CC2)" "Net-(F1-Pad1)" "Net-(U8-A2)" "Net-(U8-A1)" "Net-(SW2-B)" "Net-(U7-A2)" "Net-(U7-A1)"
+    "Net-(U7-OE)" "Net-(U8-OE)"
+    (clearance_class "kicad_default")
+    (via_rule "kicad_default")
+    (rule
+      (width 250.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class Power,Default
+    GNDD GNDA +5VD +3V3D +5VA +3V3Dbig
+    (clearance_class Power,Default)
+    (via_rule Power,Default)
+    (rule
+      (width 350.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class SPI,Default
+    /ATmega328p/SCK /ATmega328p/MISO /ATmega328p/MOSI /ATmega328p/SS
+    (clearance_class SPI,Default)
+    (via_rule SPI,Default)
+    (rule
+      (width 250.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class I2C,Default
+    /ATmega328p/SCL /ATmega328p/SDA
+    (clearance_class I2C,Default)
+    (via_rule I2C,Default)
+    (rule
+      (width 250.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+)

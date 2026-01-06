@@ -1,0 +1,24 @@
+Plotted to 'C:\Users\aelkarm\Documents\tut_1\BJT_astable_multivibrator\fab\gerber\BJT_astable_multivibrator-F_Cu.gbr'.
+Plotted to 'C:\Users\aelkarm\Documents\tut_1\BJT_astable_multivibrator\fab\gerber\BJT_astable_multivibrator-B_Cu.gbr'.
+Plotted to 'C:\Users\aelkarm\Documents\tut_1\BJT_astable_multivibrator\fab\gerber\BJT_astable_multivibrator-F_Paste.gbr'.
+Plotted to 'C:\Users\aelkarm\Documents\tut_1\BJT_astable_multivibrator\fab\gerber\BJT_astable_multivibrator-B_Paste.gbr'.
+Plotted to 'C:\Users\aelkarm\Documents\tut_1\BJT_astable_multivibrator\fab\gerber\BJT_astable_multivibrator-F_Silkscreen.gbr'.
+Plotted to 'C:\Users\aelkarm\Documents\tut_1\BJT_astable_multivibrator\fab\gerber\BJT_astable_multivibrator-B_Silkscreen.gbr'.
+Plotted to 'C:\Users\aelkarm\Documents\tut_1\BJT_astable_multivibrator\fab\gerber\BJT_astable_multivibrator-F_Mask.gbr'.
+Plotted to 'C:\Users\aelkarm\Documents\tut_1\BJT_astable_multivibrator\fab\gerber\BJT_astable_multivibrator-B_Mask.gbr'.
+Plotted to 'C:\Users\aelkarm\Documents\tut_1\BJT_astable_multivibrator\fab\gerber\BJT_astable_multivibrator-Edge_Cuts.gbr'.
+Created Gerber job file 'C:\Users\aelkarm\Documents\tut_1\BJT_astable_multivibrator\fab\gerber\BJT_astable_multivibrator-job.gbrjob'.
+Info: Done.
+Plotted to 'C:\Users\aelkarm\Documents\tut_1\BJT_astable_multivibrator\fab\gerber\BJT_astable_multivibrator-F_Cu.gbr'.
+Plotted to 'C:\Users\aelkarm\Documents\tut_1\BJT_astable_multivibrator\fab\gerber\BJT_astable_multivibrator-B_Cu.gbr'.
+Plotted to 'C:\Users\aelkarm\Documents\tut_1\BJT_astable_multivibrator\fab\gerber\BJT_astable_multivibrator-F_Paste.gbr'.
+Plotted to 'C:\Users\aelkarm\Documents\tut_1\BJT_astable_multivibrator\fab\gerber\BJT_astable_multivibrator-B_Paste.gbr'.
+Plotted to 'C:\Users\aelkarm\Documents\tut_1\BJT_astable_multivibrator\fab\gerber\BJT_astable_multivibrator-F_Silkscreen.gbr'.
+Plotted to 'C:\Users\aelkarm\Documents\tut_1\BJT_astable_multivibrator\fab\gerber\BJT_astable_multivibrator-B_Silkscreen.gbr'.
+Plotted to 'C:\Users\aelkarm\Documents\tut_1\BJT_astable_multivibrator\fab\gerber\BJT_astable_multivibrator-F_Mask.gbr'.
+Plotted to 'C:\Users\aelkarm\Documents\tut_1\BJT_astable_multivibrator\fab\gerber\BJT_astable_multivibrator-B_Mask.gbr'.
+Plotted to 'C:\Users\aelkarm\Documents\tut_1\BJT_astable_multivibrator\fab\gerber\BJT_astable_multivibrator-Edge_Cuts.gbr'.
+Created Gerber job file 'C:\Users\aelkarm\Documents\tut_1\BJT_astable_multivibrator\fab\gerber\BJT_astable_multivibrator-job.gbrjob'.
+Info: Done.
+Info: Done.
+Info: Done.

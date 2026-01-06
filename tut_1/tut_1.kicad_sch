@@ -1,0 +1,146 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "9cca76a5-575b-45ca-a9fa-2933e5bee66a")
+	(paper "A4")
+	(title_block
+		(title "555 Astable Microvibrator")
+		(rev "v1.0")
+		(company "OCA")
+		(comment 1 "Test project")
+	)
+	(lib_symbols)
+	(sheet
+		(at 153.67 90.17)
+		(size 12.7 10.16)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "21218f1f-c87f-4541-a493-8455f521fff5")
+		(property "Sheetname" "MountingHoles and Fiducials"
+			(at 153.67 89.4584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MH_fiducial.kicad_sch"
+			(at 153.67 100.9146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "tut_1"
+				(path "/9cca76a5-575b-45ca-a9fa-2933e5bee66a"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 135.89 90.17)
+		(size 12.7 10.16)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "219b48ac-12e8-44cf-ba34-e7ae3e4ec25b")
+		(property "Sheetname" "555 Timer"
+			(at 135.89 89.4584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "555_timer.kicad_sch"
+			(at 135.89 100.9146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "tut_1"
+				(path "/9cca76a5-575b-45ca-a9fa-2933e5bee66a"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 118.11 90.17)
+		(size 13.97 10.16)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "4f02986c-f78a-404d-8239-bf7355fff646")
+		(property "Sheetname" "Power"
+			(at 118.11 89.4584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power.kicad_sch"
+			(at 118.11 100.9146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "tut_1"
+				(path "/9cca76a5-575b-45ca-a9fa-2933e5bee66a"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

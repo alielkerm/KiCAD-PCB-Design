@@ -1,0 +1,12 @@
+Plotted to 'C:\Users\aelkarm\Documents\tut_1\BJT_astable_multivibrator\fab\gerber_panel\panel-F_Cu.gbr'.
+Plotted to 'C:\Users\aelkarm\Documents\tut_1\BJT_astable_multivibrator\fab\gerber_panel\panel-B_Cu.gbr'.
+Plotted to 'C:\Users\aelkarm\Documents\tut_1\BJT_astable_multivibrator\fab\gerber_panel\panel-F_Paste.gbr'.
+Plotted to 'C:\Users\aelkarm\Documents\tut_1\BJT_astable_multivibrator\fab\gerber_panel\panel-B_Paste.gbr'.
+Plotted to 'C:\Users\aelkarm\Documents\tut_1\BJT_astable_multivibrator\fab\gerber_panel\panel-F_Silkscreen.gbr'.
+Plotted to 'C:\Users\aelkarm\Documents\tut_1\BJT_astable_multivibrator\fab\gerber_panel\panel-B_Silkscreen.gbr'.
+Plotted to 'C:\Users\aelkarm\Documents\tut_1\BJT_astable_multivibrator\fab\gerber_panel\panel-F_Mask.gbr'.
+Plotted to 'C:\Users\aelkarm\Documents\tut_1\BJT_astable_multivibrator\fab\gerber_panel\panel-B_Mask.gbr'.
+Plotted to 'C:\Users\aelkarm\Documents\tut_1\BJT_astable_multivibrator\fab\gerber_panel\panel-Edge_Cuts.gbr'.
+Created Gerber job file 'C:\Users\aelkarm\Documents\tut_1\BJT_astable_multivibrator\fab\gerber_panel\panel-job.gbrjob'.
+Info: Done.
+Info: Done.

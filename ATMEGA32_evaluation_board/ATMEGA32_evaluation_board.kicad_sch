@@ -1,0 +1,146 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "65c203a8-7f22-402b-abbf-e622dfdd9a1f")
+	(paper "A4")
+	(title_block
+		(title "Atmega32 Evaluation Board")
+		(date "2025-10-28")
+		(rev "v1.0")
+		(company "OCA")
+	)
+	(lib_symbols)
+	(sheet
+		(at 189.23 92.71)
+		(size 48.26 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b90c54c8-86b3-4387-a8c1-91233783bf69")
+		(property "Sheetname" "Connector"
+			(at 189.23 91.9984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "connector.kicad_sch"
+			(at 189.23 118.6946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ATMEGA32_evaluation_board"
+				(path "/65c203a8-7f22-402b-abbf-e622dfdd9a1f"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 128.27 92.71)
+		(size 48.26 26.67)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c57b9c0d-6508-4993-9a8a-bbdfe187ad2f")
+		(property "Sheetname" "uController"
+			(at 128.27 91.9984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Microcontroller.kicad_sch"
+			(at 128.27 119.9646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ATMEGA32_evaluation_board"
+				(path "/65c203a8-7f22-402b-abbf-e622dfdd9a1f"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 69.85 92.71)
+		(size 45.72 26.67)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e095716e-0642-4396-a98f-5e187ab10cae")
+		(property "Sheetname" "Power"
+			(at 69.85 91.9984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power.kicad_sch"
+			(at 69.85 119.9646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ATMEGA32_evaluation_board"
+				(path "/65c203a8-7f22-402b-abbf-e622dfdd9a1f"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

@@ -1,0 +1,10 @@
+### Footprint positions - created on 2025-11-19T18:07:06+0100 ###
+### Printed by KiCad version 9.0.6
+## Unit = mm, Angle = deg.
+## Side : bottom
+# Ref     Val          Package                                PosX       PosY       Rot  Side
+J6        MAIN_UHF     MMCX_Molex_73415-1001_Horizontal    12.0000   -89.0000    0.0000  bottom
+J7        UHF_ANTENNA  MMCX_Molex_73415-1001_Horizontal    40.0000   -89.0000   90.0000  bottom
+J8        MAIN_VHF     MMCX_Molex_73415-1001_Horizontal    78.0000   -89.0000  180.0000  bottom
+J9        VHF_ANTENNA  MMCX_Molex_73415-1001_Horizontal    50.0000   -89.0000   90.0000  bottom
+## End
