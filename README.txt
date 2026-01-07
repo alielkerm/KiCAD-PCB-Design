@@ -1,6 +1,6 @@
 # Project Name
 
-Designs PCB Designs
+KiCAD PCB Designs
 
 ## Overview
 This directory shows some personal as well as professional projects in PCB design using KiCAD open source tool.
